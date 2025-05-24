@@ -1,3 +1,49 @@
+# UniifyAssign React Native App
+
+## Demo
+
+![App Demo](./src/assets/Output-Vido.gif)
+
+---
+
+## Features
+
+This app demonstrates three main interactive UI patterns, each accessible via a bottom tab:
+
+### 1. **Swipe to Delete List**
+- **Functionality:** Swipe any list item to remove it, with an **Undo** option.
+- **Animation:** Minimalist, smooth swipe animation.
+- **Realism:** Uses a threshold value in `SwipeToDelet.js` so the swipe feels natural, similar to email apps (like Gmail’s archive feature).
+
+### 2. **Draggable Grid**
+- **Functionality:** Rearrange items in a grid by dragging and dropping.
+- **UI:** Modern card-like grid items with smooth drag-and-drop animation.
+
+### 3. **Paged Carousel**
+- **Functionality:** Swipe horizontally to navigate between pages.
+- **UI:** Simple, clean carousel with swipe gestures and minimalist transitions.
+
+---
+
+## Technical Highlights
+
+- **Minimalist Animations:** All screens use subtle, smooth animations for a modern feel.
+- **Custom Threshold:** The swipe-to-delete feature uses a threshold to trigger deletion, making the gesture feel realistic and intentional.
+- **Undo Support:** Accidentally deleted a list item? Instantly undo with a single tap.
+- **Floating Action Button:** Add new items to the list with a floating "+" button.
+
+---
+
+## How to Run
+
+1. Clone the repo and install dependencies.
+2. Start Metro with `npm start`.
+3. Run on Android/iOS with `npm run android` or `npm run ios`.
+
+---
+
+Enjoy exploring the interactive UI features!
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
