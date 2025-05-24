@@ -12,7 +12,7 @@ import {
   I18nManager
 } from 'react-native'
 import { Block } from '../components/Block'
-import { findKey, findIndex, differenceBy } from '../Utils'
+import { findKey, findIndex, differenceBy } from '../utils/Utils'
 
 export interface IOnLayoutEvent {
   nativeEvent: { layout: { x: number; y: number; width: number; height: number } }
