@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, StatusBar } from 'react-native';
-import { DraggableGrid } from './Dragable-grid';
+import { DraggableGrid } from './dragable-grid';
 
 const initialData = [
   { key: '1', name: 'Item 1', color: '#FF6B6B' },
@@ -9,6 +9,9 @@ const initialData = [
   { key: '4', name: 'Item 4', color: '#96CEB4' },
   { key: '5', name: 'Item 5', color: '#FECA57' },
   { key: '6', name: 'Item 6', color: '#FF9FF3' },
+  { key: '7', name: 'Item 7', color: '#1DD1A1' },
+  { key: '8', name: 'Item 8', color: '#F368E0' },
+  { key: '9', name: 'Item 9', color: '#576574' },
 ];
 
 export default function DraggableGridScreen() {
@@ -65,5 +68,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
     letterSpacing: 0.5,
+    padding: 15,
+    
   },
 });
