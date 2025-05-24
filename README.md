@@ -2,7 +2,9 @@
 
 ## Demo
 
-![App Demo](./src/assets/Output-Vido.gif)
+<p align="center">
+  <img src="./src/assets/Output-Vido.gif" alt="App Demo" width="200" height="auto"/>
+</p>
 
 ---
 
