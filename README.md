@@ -3,7 +3,7 @@
 ## Demo
 
 <p align="center">
-  <img src="./src/assets/Output-Vido.gif" alt="App Demo" width="200" height="auto"/>
+  <img src="./src/assets/Record_2025-05-24-14-52-10.mp4" alt="App Demo" width="200" height="auto"/>
 </p>
 
 ---

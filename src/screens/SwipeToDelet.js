@@ -14,7 +14,7 @@ const initialData = [
 export default function SwipeToDeleteScreen() {
   const [data, setData] = useState(initialData);
   const [deletedItem, setDeletedItem] = useState(null);
-  const [nextId, setNextId] = useState(7); // Always increase
+  const [nextId, setNextId] = useState(7); 
 
   const handleDelete = (item) => {
     setDeletedItem(item);
