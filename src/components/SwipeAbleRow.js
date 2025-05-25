@@ -19,7 +19,7 @@ export default function SwipeableRow({ item, onDelete }) {
 
   const gestureHandler = useAnimatedGestureHandler({
     onActive: (event) => {
-      translateX.value = Math.min(0, event.translationX); // Only left swipe
+      translateX.value = Math.min(0, event.translationX); 
     },
     onEnd: () => {
       if (translateX.value < THRESHOLD) {
@@ -27,7 +27,7 @@ export default function SwipeableRow({ item, onDelete }) {
           runOnJS(onDelete)(item);
         });
       } else {
-        translateX.value = withTiming(0); // Snap back
+        translateX.value = withTiming(0); 
       }
     },
   });
